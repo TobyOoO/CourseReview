@@ -11,7 +11,7 @@ sys.setdefaultencoding('utf8')
 
 def read_data():
 	jieba.set_dictionary('dict.txt.big')
-	stop1 = u"[，。、「」（）\(\)\.【】『』：；・．～？＝＼／！＠\@＄\$％＆\&\%\-\/\\\>\<\~\:\,\[\]\?\!\=\+＋\*＊]*"
+	stop1 = u"[★ηΨρμωδ\"，。、「」（）\(\)\.【】『』：；・．～？＝＼／！＠\@＄\$％＆\&\%\-\/\\\>\<\~\:\,\[\]\?\!\=\+＋\*＊]*"
 	stop2 = "http[a-zA-Z\.\:\/\-\?\#]*"
 	stop3 = "[0-9\.]*"
 	result = []
@@ -54,8 +54,10 @@ def read_data():
 		seg_list = jieba.lcut(text, cut_all=False)
 		word_list = []
 		for seg in seg_list:
+			'''
 			if(len(seg) == 1):
 				continue
+			'''
 			word_list.append(seg)
 		result += word_list
 

@@ -1,2 +1,6 @@
-model_checkpoint_path: "model/word2vecmodel-2691"
-all_model_checkpoint_paths: "model/word2vecmodel-2691"
+model_checkpoint_path: "word2vecmodel-3806353"
+all_model_checkpoint_paths: "word2vecmodel-2721563"
+all_model_checkpoint_paths: "word2vecmodel-2992801"
+all_model_checkpoint_paths: "word2vecmodel-3263805"
+all_model_checkpoint_paths: "word2vecmodel-3535380"
+all_model_checkpoint_paths: "word2vecmodel-3806353"
