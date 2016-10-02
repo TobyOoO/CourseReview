@@ -44,7 +44,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 flags = tf.app.flags
-flags.DEFINE_string("restore_path", 'model/tars-mode-c-v4-100000', "Directory to load the model and "
+flags.DEFINE_string("restore_path", 'model/word2vec/model.ckpt-4069418', "Directory to load the model and "
 										"training summaries.")
 flags.DEFINE_string("save_path", 'model/word2vec', "Directory to write the model and "
 										"training summaries.")
